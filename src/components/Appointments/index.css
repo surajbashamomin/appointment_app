@@ -1,0 +1,75 @@
+.app-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.main-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.text-input {
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  width: 300px;
+  outline: none;
+}
+.button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.app-inner-container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 300px;
+  margin-left: 120px;
+}
+.appointment-starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.appointment {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.button-starred {
+  color: #9897f0;
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
